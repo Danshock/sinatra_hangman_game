@@ -1,5 +1,4 @@
-require "sinatra"
-#require "sinatra/reloader" if development?
+require 'sinatra'
 require_relative "lib/hangman.rb"
 
 enable :sessions

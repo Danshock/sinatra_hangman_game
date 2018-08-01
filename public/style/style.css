@@ -1,0 +1,92 @@
+body {
+	margin-top: 20px;
+	background-image: url("../img/background.jpeg");
+	background-repeat: repeat-xy; 
+}
+
+h1 {
+	color: #0F2C44;
+	font-family: 'MedievalSharp', cursive;
+	font-size: 80px;
+	font-weight: normal;
+	line-height: 80px;
+	margin: 0;
+	text-align: center;
+	text-shadow: 1px 1px 2px #0F2C44;
+}
+
+.info {
+	color: #ED516B;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	line-height: 32px;
+	margin: 0;
+	text-align: center;
+}
+
+p {
+	color: #ED516B;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	line-height: 24px;
+	margin: 0 0 24px;
+	text-align: center;
+}
+
+a {
+	color: #0F2C44;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ED516B;
+	text-decoration: underline;
+}
+
+.guessing {
+	margin: 80px 0 0 0;
+	font-family: 'Raleway', sans-serif;
+	color: #0F2C44;
+	font-size: 30px;
+}
+
+label {
+	font-family: 'Raleway', sans-serif;
+	color: #0F2C44;
+}
+
+input[type=text], select {
+	width: 50px;
+	padding: 0px 10px;
+	margin: 40px 40 0;
+	display: inline;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+}
+
+input[type=submit] {
+	width: 70px;
+	background-color: #0F2C44;
+	color: white;
+	padding: 1px 0;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+}
+
+input[type=submit]:hover {
+	background-color: #0F2C44;
+}
+
+div {
+	width: 400px;
+	margin: 0 auto;
+	border-radius: 5px;
+	padding: 20px;
+}
